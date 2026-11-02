@@ -187,19 +187,19 @@ function showDay() {
 
   // picture and text for each plantStatus
   if (plantStatus == "happy") {
-    plantPic.src = "happy.svg";
+    plantPic.src = "happy.jpg";
     statusText.innerHTML = plantName + " looks happy.";
   } else if (plantStatus == "thirsty") {
-    plantPic.src = "thirsty.svg";
+    plantPic.src = "thirsty.jpg";
     statusText.innerHTML = plantName + " is thirsty. The leaves are going yellow.";
   } else if (plantStatus == "drowning") {
-    plantPic.src = "drowning.svg";
+    plantPic.src = "drowning.jpg";
     statusText.innerHTML = plantName + " is drowning. There's water all over the floor.";
   } else if (plantStatus == "droopy") {
-    plantPic.src = "droopy.svg";
+    plantPic.src = "droopy.jpg";
     statusText.innerHTML = plantName + " is pale and leaning, looking for light.";
   } else if (plantStatus == "scorched") {
-    plantPic.src = "thirsty.svg";
+    plantPic.src = "thirsty.jpg";
     statusText.innerHTML = plantName + " has been in the sun way too long. The leaves are crispy.";
   }
 
@@ -266,22 +266,22 @@ function endGame() {
   if (health <= 0) {
     result = "dead";
     endTitle.innerHTML = plantName + " didn't make it";
-    endPic.src = "dead.svg";
+    endPic.src = "dead.jpg";
     endText.innerHTML = "On day " + day + ", " + plantName + " gave up. Your friend is going to have questions.";
   } else if (health == 5 && happyDays >= 5) {
     result = "bloomed";
     endTitle.innerHTML = plantName + " bloomed!";
-    endPic.src = "bloom.svg";
+    endPic.src = "bloom.jpg";
     endText.innerHTML = "Your friend comes home and " + plantName + " is covered in flowers. They ask if you can plant sit again next month.";
   } else if (health >= 3) {
     result = "healthy";
     endTitle.innerHTML = plantName + " made it";
-    endPic.src = "happy.svg";
+    endPic.src = "happy.jpg";
     endText.innerHTML = plantName + " is alive and green. No flowers, but your friend is happy.";
   } else {
     result = "barely";
     endTitle.innerHTML = plantName + " barely made it";
-    endPic.src = "droopy.svg";
+    endPic.src = "droopy.jpg";
     endText.innerHTML = plantName + " is still alive, technically. Your friend says thanks, but doesn't look that convinced.";
   }
 

@@ -10,4 +10,13 @@ How it works:
 
 Live site: https://varnan234.github.io/CCT360-LAB4/
 
-Plant pictures are simple SVG drawings made for this lab.
+## Photo credits
+
+All photos are from Unsplash (free to use under the Unsplash License), cropped to squares.
+
+- happy.jpg - Jane Duursma, https://unsplash.com/photos/green-plant-on-brown-pot-lBdd3MXAZ_s
+- thirsty.jpg - Sharanya Dilip, https://unsplash.com/photos/brown-flower-in-black-pot-vFXhWT2qOQg
+- drowning.jpg - Nicolas Horn, https://unsplash.com/photos/green-plant-in-blue-plastic-pot-FiZPMqqNFwA
+- droopy.jpg - Kelly Sikkema, https://unsplash.com/photos/croton-plant-near-green-orchid-plant-aCnAxrwaesI
+- bloom.jpg - Lazar Cvetanovic, https://unsplash.com/photos/african-violet-with-purple-flowers-MMnC0qZS5Xo
+- dead.jpg - Khalil, https://unsplash.com/photos/brown-powder-on-green-round-container-3j0zQe5EAyo
