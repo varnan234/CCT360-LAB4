@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+button {
+  font-size: 16px;
+  padding: 8px 14px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+input {
+  font-size: 16px;
+  padding: 7px;
+  margin: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+#plantPic,
+#endPic {
+  display: block;
+  margin: 10px auto;
+  width: 280px;
+  max-width: 90%;
+  border: 3px solid black;
+}
+
+#hintText {
+  font-style: italic;
+  color: #555;
+}
+
+.meters {
+  max-width: 320px;
+  margin: 15px auto;
+  text-align: left;
+}
+
+.meter-row {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+}
+
+.meter-label {
+  width: 60px;
+}
+
+.meter {
+  flex: 1;
+  height: 14px;
+  background-color: white;
+  border: 2px solid black;
+  margin: 0 8px;
+}
+
+.bar {
+  height: 100%;
+}
+
+.water {
+  background-color: #4a90d9;
+}
+
+.sun {
+  background-color: #f0b429;
+}
+
+/* bar turns red when it's too low or too high */
+.danger {
+  background-color: #d9534f;
+}
+
+#hearts {
+  color: #d9534f;
+  font-size: 20px;
+}
+
+#log {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#log li {
+  padding: 6px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#endText {
+  max-width: 500px;
+  margin: 10px auto;
+  font-size: 18px;
+}
+
+.note {
+  font-size: 13px;
+  color: gray;
+}

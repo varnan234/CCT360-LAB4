@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Sitter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Plant Sitter</h1>
+  <p>Your friend is away for a week and left you their plant. Keep it alive for 7 days.</p>
+
+  <!-- START SCREEN -->
+  <div id="startScreen">
+    <p id="welcome"></p>
+    <label for="nameInput">Name the plant:</label>
+    <input type="text" id="nameInput" placeholder="e.g. Fern" maxlength="20">
+    <button id="startBtn">Start</button>
+    <p id="nameMsg" class="note"></p>
+  </div>
+
+  <!-- GAME SCREEN -->
+  <div id="gameScreen" class="hidden">
+    <h2 id="dayText"></h2>
+    <p id="weatherText"></p>
+
+    <img id="plantPic" src="happy.svg" alt="the plant">
+    <h3 id="statusText"></h3>
+    <p id="hintText"></p>
+
+    <div class="meters">
+      <div class="meter-row">
+        <span class="meter-label">Water</span>
+        <div class="meter"><div id="waterBar" class="bar water"></div></div>
+        <span id="waterNum"></span>
+      </div>
+      <div class="meter-row">
+        <span class="meter-label">Sun</span>
+        <div class="meter"><div id="sunBar" class="bar sun"></div></div>
+        <span id="sunNum"></span>
+      </div>
+      <div class="meter-row">
+        <span class="meter-label">Health</span>
+        <span id="hearts"></span>
+      </div>
+    </div>
+
+    <p>What do you do today?</p>
+    <div id="actions">
+      <button id="waterBtn">Water it</button>
+      <button id="sunBtn">Move it to the window</button>
+      <button id="restBtn">Leave it alone</button>
+    </div>
+
+    <h3>What happened so far</h3>
+    <ul id="log"></ul>
+  </div>
+
+  <!-- END SCREEN -->
+  <div id="endScreen" class="hidden">
+    <h2 id="endTitle"></h2>
+    <img id="endPic" src="bloom.svg" alt="the plant at the end">
+    <p id="endText"></p>
+    <p id="statsText" class="note"></p>
+    <button id="againBtn">Try another plant</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
